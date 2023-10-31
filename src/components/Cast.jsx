@@ -18,7 +18,7 @@ const Cast = () => {
   return (
     <div>
       {!casts.length > 0 ? (
-        <p>no Casts</p>
+        <p>No Casts</p>
       ) : (
           <ul>
             {casts.map(({ cast_id,profile_path,original_name}) => (
